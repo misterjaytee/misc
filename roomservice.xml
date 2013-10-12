@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="namidairo/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-10.2" />
+  <project name="namidairo/android_device_asus_tf201" path="device/asus/tf201" remote="github" revision="cm-10.2" />
+  <project name="namidairo/android_kernel_asus_tf201" path="kernel/asus/tf201" remote="github" revision="cm-10.2" />
+</manifest>
