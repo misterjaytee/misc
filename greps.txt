@@ -1,0 +1,67 @@
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ grep -r -l "shutdown_reboot_options" *
+overlay/frameworks/base/core/res/res/values/arrays.xml
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ vi overlay/frameworks/base/core/res/res/values/arrays.xml
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ vi overlay/frameworks/base/core/res/res/values/
+arrays.xml   config.xml   strings.xml  
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ vi overlay/frameworks/base/core/res/res/values/strings.xml 
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ vi overlay/frameworks/base/core/res/res/values/config.xml 
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ grep -r -l "DockBatteryHandler" *asusdec/jni/com_cyanogenmod_asusdec_DockBatteryHandler.cpp
+asusdec/jni/com_cyanogenmod_asusdec_AsusdecNative.cpp
+asusdec/jni/Android.mk
+asusdec/java/com/cyanogenmod/asusdec/DockBatteryHandler.java
+overlay/frameworks/base/core/res/res/values/config.xml
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ grep -r -l "DockBatteryHandler" ~/android/aokp/dev*
+developers/  development/ device/      
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ grep -r -l "DockBatteryHandler" ~/android/aokp/device/asus/tf201/*
+/home/stuff/android/aokp/device/asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_DockBatteryHandler.cpp
+/home/stuff/android/aokp/device/asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_AsusdecNative.cpp
+/home/stuff/android/aokp/device/asus/tf201/asusdec/jni/Android.mk
+/home/stuff/android/aokp/device/asus/tf201/asusdec/java/com/cyanogenmod/asusdec/DockBatteryHandler.java
+/home/stuff/android/aokp/device/asus/tf201/overlay/frameworks/base/core/res/res/values/config.xml
+stuff@SaucyBeta:~/android/tf201/device/asus/tf201$ cd ..
+stuff@SaucyBeta:~/android/tf201/device/asus$ grep -r -l "DockBatteryHandler" *
+tf201/.git/index
+tf201/overlay/frameworks/base/core/res/res/values/config.xml
+tf201/asusdec/jni/com_cyanogenmod_asusdec_DockBatteryHandler.cpp
+tf201/asusdec/jni/com_cyanogenmod_asusdec_AsusdecNative.cpp
+tf201/asusdec/jni/Android.mk
+tf201/asusdec/java/com/cyanogenmod/asusdec/DockBatteryHandler.java
+stuff@SaucyBeta:~/android/tf201/device/asus$ cd ..
+stuff@SaucyBeta:~/android/tf201/device$ grep -r -l "DockBatteryHandler" *
+asus/tf201/.git/index
+asus/tf201/overlay/frameworks/base/core/res/res/values/config.xml
+asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_DockBatteryHandler.cpp
+asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_AsusdecNative.cpp
+asus/tf201/asusdec/jni/Android.mk
+asus/tf201/asusdec/java/com/cyanogenmod/asusdec/DockBatteryHandler.java
+stuff@SaucyBeta:~/android/tf201/device$ cd ..
+stuff@SaucyBeta:~/android/tf201$ grep -r -l "DockBatteryHandler" *
+device/asus/tf201/.git/index
+device/asus/tf201/overlay/frameworks/base/core/res/res/values/config.xml
+device/asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_DockBatteryHandler.cpp
+device/asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_AsusdecNative.cpp
+device/asus/tf201/asusdec/jni/Android.mk
+device/asus/tf201/asusdec/java/com/cyanogenmod/asusdec/DockBatteryHandler.java
+frameworks/base/core/res/res/values/config.xml
+frameworks/base/core/res/res/values/symbols.xml
+frameworks/base/core/java/com/android/internal/os/IDeviceHandler.java
+frameworks/base/core/java/com/android/internal/os/DeviceDockBatteryHandler.java
+frameworks/base/.git/index
+frameworks/base/services/java/com/android/server/BatteryService.java
+frameworks/base/services/java/com/android/server/DeviceHandlerService.java
+out/target/product/tf201/symbols/system/lib/libasusdec_jni.so
+out/target/product/tf201/system.img
+out/target/product/tf201/system/lib/libasusdec_jni.so
+out/target/product/tf201/system/framework/framework-res.apk
+grep: memory exhausted
+stuff@SaucyBeta:~/android/tf201$ grep -r -l "DockBatteryHandler" ~/android/aokp/*
+/home/stuff/android/aokp/device/asus/tf201/.git/index
+/home/stuff/android/aokp/device/asus/tf201/overlay/frameworks/base/core/res/res/values/config.xml
+/home/stuff/android/aokp/device/asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_DockBatteryHandler.cpp
+/home/stuff/android/aokp/device/asus/tf201/asusdec/jni/com_cyanogenmod_asusdec_AsusdecNative.cpp
+/home/stuff/android/aokp/device/asus/tf201/asusdec/jni/Android.mk
+/home/stuff/android/aokp/device/asus/tf201/asusdec/java/com/cyanogenmod/asusdec/DockBatteryHandler.java
+/home/stuff/android/aokp/out/target/product/tf201/obj/SHARED_LIBRARIES/libasusdec_jni_intermediates/com_cyanogenmod_asusdec_DockBatteryHandler.o
+/home/stuff/android/aokp/out/target/product/tf201/obj/SHARED_LIBRARIES/libasusdec_jni_intermediates/com_cyanogenmod_asusdec_DockBatteryHandler.P
+/home/stuff/android/aokp/out/target/product/tf201/obj/SHARED_LIBRARIES/libasusdec_jni_intermediates/com_cyanogenmod_asusdec_AsusdecNative.o
+
